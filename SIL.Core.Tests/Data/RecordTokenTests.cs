@@ -235,7 +235,7 @@ namespace SIL.Tests.Data
 				get { throw new NotImplementedException(); }
 			}
 
-			public void Startup(ProgressState state)
+			public void Startup(IProgress state)
 			{
 				throw new NotImplementedException();
 			}
