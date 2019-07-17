@@ -6,7 +6,7 @@ namespace SIL.Progress
 	/// Use this when you don't have an actual progressstate installed and don't
 	/// want to litter the code with if(_progressState != null)'s
 	/// </summary>
-	// Should be deprecated - [Obsolete("Use SIL.Progress.NullProgress instead.")]
+	[Obsolete("Use SIL.Progress.NullProgress instead.")]
 	public class NullProgressState : ProgressState
 	{
 		public NullProgressState():base()

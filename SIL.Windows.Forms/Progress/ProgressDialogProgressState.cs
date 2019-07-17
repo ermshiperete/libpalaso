@@ -4,7 +4,7 @@ using SIL.Windows.Forms.Progress.Commands;
 
 namespace SIL.Windows.Forms.Progress
 {
-	// Should be deprecated - [Obsolete]
+	[Obsolete]
 	public class ProgressDialogProgressState : ProgressState
 	{
 		private readonly ProgressDialogHandler _progressHandler;

@@ -2,7 +2,7 @@ using System;
 
 namespace SIL.Progress
 {
-	// Should be deprecated - [Obsolete("Use SIL.Progress.ConsoleProgress instead.")]
+	[Obsolete("Use SIL.Progress.ConsoleProgress instead.")]
 	public class ConsoleProgressState : ProgressState
 	{
 		public override string StatusLabel

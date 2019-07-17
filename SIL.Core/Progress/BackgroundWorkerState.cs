@@ -6,7 +6,7 @@ namespace SIL.Progress
 	/// <summary>
 	/// Long-running tasks can be written to take one of these as an argument, and use it to notify others of their progress
 	/// </summary>
-	// Should be deprecated - [Obsolete]
+	[Obsolete]
 	public class BackgroundWorkerState : ProgressState
 	{
 		private BackgroundWorker _worker;

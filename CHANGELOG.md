@@ -33,3 +33,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - [SIL.Core] new properties for processor architecture: `Platform.ProcessArchitecture` and
   `Platform.IsRunning64Bit`
+
+### Deprecated
+
+- [SIL.Core] Deprecated `SIL.Progress.ProgressState`. Use one of the `SIL.Progress.IProgress`
+  classes (e.g. `SIL.Progress.MultiProgress`, `SIL.Progress.ConsoleProgress`,
+  `SIL.Progress.StatusProgress`, `SIL.Progress.FileLogProgress`,
+  `SIL.Windows.Forms.Progress.TextBoxProgress`) instead, possibly along with
+  `SIL.Windows.Forms.Progress.LogBox`.
+- [SIL.Core] Deprecated `SIL.Progress.NullProgressState`. Use `SIL.Progress.NullProgress` instead.
+- [SIL.Core] Deprecated `SIL.Progress.ConsoleProgressState`. Use `SIL.Progress.ConsoleProgress`
+  instead.
+- [SIL.Core] Deprecated `SIL.Progress.BackgroundWorkerState`.
+- [SIL.Windows.Forms] Deprecated `SIL.Windows.Forms.Progress.ProgressDialogProgressState`.
